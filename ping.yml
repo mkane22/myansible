@@ -1,3 +1,2 @@
-- hosts: site
-  roles:
-  - ping
+- hosts: windows
+  win -m  win_ping
