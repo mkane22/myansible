@@ -1,2 +1,7 @@
-- hosts: winServer
-  win -m  win_ping
+---
+- name: Ping Windows Servers
+  hosts: windows_servers
+  gather_facts: no
+  tasks:
+    - name: Ping the Windows Server
+      win_ping:
