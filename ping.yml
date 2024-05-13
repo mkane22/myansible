@@ -1,2 +1,2 @@
-- hosts: windows
+- hosts: winServer
   win -m  win_ping
